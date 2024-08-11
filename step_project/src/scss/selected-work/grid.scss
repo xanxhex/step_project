@@ -1,0 +1,32 @@
+.work-list__item--1{grid-area: item1;}
+.work-list__item--2{grid-area: item2;}
+.work-list__item--3{grid-area: item3;}
+.work-list__item--4{grid-area: item4;}
+.work-list__item--5{grid-area: item5;}
+.work-list__item--6{grid-area: item6;}
+
+
+.section-work__list{
+justify-content: center;
+list-style: none;
+display: grid;
+grid-template-columns: repeat(3, 0fr);
+gap: 20px;
+grid-template-areas:
+"item1 item2 item3"
+"item4 item5 item6";
+
+@media (max-width:1199px){
+    grid-template-columns: repeat(1, 0fr);
+    grid-template-areas:
+    "item2"
+    "item3"
+    "item1"
+    "item4"
+    "item5"
+    "item6";
+}
+}
+
+
+

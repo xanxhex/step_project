@@ -1,0 +1,46 @@
+// * Це головний sass/scss файл проекту
+// * імпортуйте сюди всі інші ваші файли sass/scss
+a{
+    text-decoration: none;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    background-color: #f5f3ea;
+        --font-family: "Inter", sans-serif;
+        --second-family: "Gilroy", sans-serif;
+        --third-family: "Gilroy-Medium", sans-serif;
+        --font3: "Gilroy-Bold", sans-serif;
+        --font4: "Gilroy-SemiBold", sans-serif;
+        --font5: "Gilroy-Regular", sans-serif;
+        --border-color:#252525;
+        --black:#000;
+        --grey:#333;
+      }
+
+      @import './top/top.scss';
+      @import './header.scss';
+      @import './top/about_me.scss';
+      @import './top/logos.scss';
+      @import './selected-work/selected-work.scss';
+      @import './selected-work/grid.scss';
+      @import './selected-work/list.scss';
+      @import './our-team/our-team.scss';
+
+      @import './vars';
+      @import './general';
+      @import './typography';
+      @import './top/top.scss';
+      @import './header.scss';
+      @import './top/about_me.scss';
+      @import './top/logos.scss';
+      @import './section-offers/section-offers';
+      @import './selected-work/selected-work.scss';
+      @import './selected-work/grid.scss';
+      @import './selected-work/list.scss';
+      @import './section-clients/section-clients';
+      @import './our-team/our-team.scss';
+      @import './section-contact/section-contact';
+      @import './footer';

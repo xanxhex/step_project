@@ -1,0 +1,55 @@
+.logo__text{
+font-family: var(--second-family);
+font-weight: 800;
+font-size: 35px;
+letter-spacing: -0.02em;
+color: #000;
+
+@media (max-width: 756px){
+    display: none;
+}
+
+}
+
+.logo__text--uppercase{
+font-family: var(--third-family);
+font-weight: 400;
+text-transform: uppercase;
+
+@media (max-width: 756px){
+    display: none;
+}
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.logo__img{
+    width: 91px;
+    height: 35px;
+
+
+}
+
+.menu{
+font-family: var(--font4);
+font-weight: 400;
+font-size: 25px;
+color: #252525;
+text-transform: uppercase;
+}
+
+.header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 70px;
+
+    @media (max-width: 756px){
+        margin: 30px 30px;
+    }
+}
